@@ -16,7 +16,7 @@ Estilos Generales */
 
 body{
   /*  background-image: url("/IMG/Fondo.jpg");*/
-  background-image: url("/IMG/F2.jpg");
+  background-image: url("F2.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
