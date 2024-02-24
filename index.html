@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="ICON/css/all.min.css">
+    <link rel="icon" href="ICON/2730319_colour_harry_hat_magic_potter_icon.ico" type="image/x-icon">
+    <title>Generator</title>
+</head>
+<body>
+    
+        <div class="Contenedor">
+            <div class="logo">
+                <img src="IMG/Logo1.png" alt="Reliquias de la muerte">
+            </div>
+                <form action="" class="app" id="app">
+                    <div class="fila numero-caracteres">
+                        <div class="colum">
+                           <label for="numero-caracteres">Numero de caracteres:</label> 
+                        </div>
+                        <div class="colum botones">
+                            <div>
+                                <button class="btn" id="btn-menos-uno"><i class="fas fa-minus"></i></button>
+                            </div>
+                            <div>
+                                <input type="text" id="numero-caracteres" readonly value="12">
+                            </div>
+                            <div>
+                                <button class="btn" id="btn-mas-uno"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fila Simbolos">
+                        <div class="colum">
+                            <label for="Simbolos">¿Incluir Símbolo?</label>
+                        </div>
+                        <div class="colum">
+                            <button class="btn" id="btn-simbolos"><i class="fa-solid fa-check"></i></button>
+                        </div>
+                    </div>
+                    <div class="fila Numero">
+                        <div class="colum">
+                            <label for="Numero">¿Incluir Numero?</label>
+                        </div>
+                        <div class="colum">
+                            <button class="btn" id="btn-numero"><i class="fa-solid fa-check"></i></button>
+                        </div>
+                    </div>
+                    <div class="fila Mayusculas">
+                        <div class="colum">
+                            <label for="Mayusculas">¿Incluir Mayusculas?</label>
+                        </div>
+                        <div class="colum">
+                            <button class="btn" id="btn-Mayusculas"><i class="fa-solid fa-check"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="fila generar">
+                        <div class="colum">
+                            <button class="btn btn-generar" id="btn-generar">Generar <i class="fa-solid fa-lock"></i></button>
+                        </div>
+                        <div class="colum">
+                            <input type="text" class="input-pasword" id="input-pasword" readonly value="Ddf45dS.">
+                        </div>
+                    </div>
+                    <div class="fila alerta">
+                        <div class="colum">
+                            <div class="alerta-copi" id="texto-copiado">
+                                <p><i class="fa-solid fa-copy"></i> TEXTO COPIADO</p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </div>
+
+    <script src="JS/app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
